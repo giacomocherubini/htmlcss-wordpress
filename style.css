@@ -31,3 +31,33 @@ header {
   color: white;
   border: 5px solid white;
 }
+
+.navibar ul{
+background-color: #52361b;
+text-align: center;
+
+}
+
+.navibar ul li {
+  display: inline-block;
+  background-color: #52361b;
+  /* border-right: 2px solid black; */
+
+}
+
+.navibar ul:last-child {
+  border-left: none;
+}
+
+.navibar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2b1d0e;
+  padding-left: 0;
+}
