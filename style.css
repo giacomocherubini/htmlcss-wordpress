@@ -10,8 +10,7 @@
 }
 
 header {
-  margin: 2%;
-  padding: 2%;
+  padding: 40px;
 }
 .immagine_iniziale {
   background-image: url("bosco.jpg");
@@ -36,6 +35,7 @@ header {
 background-color: #52361b;
 text-align: center;
 
+
 }
 
 .navibar ul li {
@@ -57,7 +57,85 @@ text-align: center;
   text-decoration: none;
 }
 
-li a:hover {
+.navibar li a:hover {
   background-color: #2b1d0e;
-  padding-left: 0;
+}
+
+h2 span img {
+  width: 20px;
+  height: auto;
+}
+
+.colonne {
+/* margin-top: 2%;
+margin-left: 2% */
+}
+
+.colonna {
+  float: left;
+  background-color: white;
+  padding: 30px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.sinistra {
+  width: 22%;
+}
+
+.sinistra ul li {
+  padding: 10px;
+  margin-left: 1px;
+  list-style-type: none;
+}
+
+.sinistra h2 {
+  padding-bottom: 20px;
+}
+
+.sinistra ul li a,
+.second_p a,
+.destra a  {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.sinistra li a:hover {
+  background: none;
+}
+
+header:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.centrale {
+  width: 47%;
+}
+
+.centrale div {
+  font-size: 50px;
+  font-weight: bold;
+  color: #52361b;
+  padding-bottom: 30px;
+}
+
+.second_p {
+  padding-top: 10px;
+}
+
+.destra {
+  width:26%;
+  margin-right: 0px;
+}
+
+
+.destra h2 {
+color: #52361b;
+padding-bottom: 30px;
+}
+
+#sotto{
+  margin-top:30px;
 }
